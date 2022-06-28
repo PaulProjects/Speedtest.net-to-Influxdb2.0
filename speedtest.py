@@ -9,9 +9,9 @@ import subprocess
 import time
 
 # You can generate an API token from the "API Tokens Tab" in the UI
-token = ""
-org = ""
-bucket = ""
+token = "XXX"
+org = "XXX"
+bucket = "XXX"
 
 #getting internet speed
 response = subprocess.Popen('/usr/bin/speedtest --accept-license --accept-gdpr', shell=True, stdout=subprocess.PIPE).stdout.read().decode('utf-8')
